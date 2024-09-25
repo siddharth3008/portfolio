@@ -1,0 +1,395 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-transform: capitalize;
+}
+/* .container{
+    justify-content: center;
+    align-items: center;
+} */
+.image{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.9rem;
+    font-weight: 800;
+    text-decoration: none;
+    color: #0e2431;
+}
+.name{
+    margin-top: 1.2rem;
+    color:#2506ad;
+}
+.navbar{
+   width: 100%;
+    height: auto;
+    background-color: #fff;
+    box-shadow: 0 1px 4px rgba(146, 161, 176, 0.3);
+    position: relative;
+    margin-top: 0px;
+    
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.list{
+    list-style: none;
+    display: inline-block;
+    font-size: 1.57rem;
+    font-weight: bold;
+    margin-right: 15px;
+}
+.list a{
+    text-decoration: none;
+    color: black;
+    
+}
+.list a:hover{
+    text-decoration: underline;
+    color:#2506ad;
+}
+.part1{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #d7dee3;
+    display: flex;
+    align-items: center;
+    gap: 7em;
+    padding: 30px 12% 0;
+    
+}
+.intro1{
+    font-size: 1.57rem;
+    font-weight: bold;
+}
+.portfolio img{
+    border-radius: 50%;
+    width: 350px;
+    filter: grayscale(100%);
+    float:right;
+
+}
+.portfolio img:hover{
+    filter: grayscale(0%);
+    transition: ease-in;
+    cursor: pointer;
+}
+.fa-brands{
+    color:#066dad;
+    background-color: black;
+    padding: 20px;
+    border-radius: 40px;
+}
+.fa-brands:hover{
+    cursor: pointer;
+}
+.fa-github:hover{
+    color: white;
+}
+.fa-linkedin:hover{
+    color:white;
+    background:lightskyblue;
+}
+.fa-twitter:hover{
+    color: white;
+    background-color:lightskyblue;
+}
+.fa-instagram:hover{
+    color: white;
+    background-color: palevioletred;
+}
+.fa-telegram:hover{
+    color:white;
+    background:lightskyblue;
+}
+
+.intro1{
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+.intro2 img{
+    display: flex;
+    margin-bottom: 500px;
+}
+.btn{
+    border: 2px solid black;
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+    background-color: #2506ad;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 100;
+    box-shadow: 0px 5px 18px rgba(48, 68, 247, 0.6);
+    cursor: pointer;
+    
+}
+.btn:hover{
+    color: black;
+}
+/* .fa-solid:hover{
+    color: black;
+} */
+.auto-type{
+    color: orangered;
+}
+#about{
+    height: 600px;
+    width: 100%;
+    background: lightblue;
+  
+}
+.fa-user{
+    color: white;
+}
+.about1{
+ 
+    font-size: 2.0rem;
+    color: rgb(32, 32, 32);
+    font-weight: 800;
+    text-align: center;
+}
+.spn1{
+    color: purple;
+}
+.intro2{
+    display: flex;
+    gap: 2rem;
+    padding: 4rem;
+   
+}
+.intro2 img{
+    height: 400px;
+    filter: grayscale(100%);
+    border-radius: 50px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+}
+.intro2 img:hover{
+    filter: grayscale(0%);
+    cursor: pointer;
+   
+}
+.intro2 p{
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    font-family: "Nunito";
+    font-weight: 600;
+    text-transform: none;
+}
+.resume a{
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    border-radius: 25px;
+    transition: 0.3s;
+    color: #fff;
+    background: #2506ad;
+    display: flex;
+    text-decoration: none;
+   
+
+}
+.email{
+    color: #2506ad;
+}
+.para
+{
+    height: 500px;
+}
+#part3{
+    background:rgb(148, 23, 244);
+   
+
+}
+.skills{
+    font-size: 2.0rem;
+    font-weight: 800;
+    text-align: center;
+    padding: 50px;
+   
+}
+.fa-solid{
+    color: black;
+}
+.skillsimg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #0e2431;
+    padding: 30px;
+}
+.skillpic{
+    justify-content: center;
+    align-items:center;
+     gap: 20px;
+    position: relative;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+.skillpic img{
+    width: 200px;
+    box-shadow: 0 0 20px #333;
+    height: 100%;
+    
+   
+}
+.skillpic img:hover{
+   
+    opacity: 5;
+    transform: scale(1.2);
+    transition: 2s;
+    filter: drop-shadow(0 0 10px #333);
+    cursor: pointer;
+}
+.education{
+    background-color:lightcyan ;
+    min-height: 100vh;
+}
+.education h2{
+    font-size: 2.0rem;
+    font-weight: 800;
+    text-align: center;
+}
+.r1{
+    padding: 10px;
+    display: flex;
+    background-color: #fff;
+    border: 2px solid black;
+     margin: 20px;
+}
+.r1:hover{
+    box-shadow: 0 0 20px #333;
+}
+.r1img{
+margin: 20px;
+border: 2px solid black;
+  
+   
+}
+.r1des h2{
+    color: blue;
+}
+.r1des h4{
+    color: green;
+}
+
+.poly{
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    background-color: #fff;
+}
+.poly:hover{
+     box-shadow: 0 0 20px #333;
+}
+.polyimg{
+    margin: 20px;
+    border: 2px solid black;
+   
+}
+.polydes h2{
+
+    color: blue;
+}
+.polydes h4{
+    color: green;
+}
+#contact{
+    background-color: lightblue;
+    padding: 20px;
+}
+.cntct h2{
+    font-size: 2.0rem;
+    font-weight: 800;
+    text-align: center;
+}
+.cntct-content{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    margin: 70px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+.formgrp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.field {
+  
+    border-radius: 15px;
+    margin: 20px;
+
+}
+#name{
+    height: 50px;
+    width: 250px;
+    background-color: lightblue;
+}
+#story{
+    background-color: lightblue;
+}
+.send{
+    
+        border: 2px solid black;
+        height: 50px;
+        width: 150px;
+        border-radius: 2px;
+        background-color: #2506ad;
+        color: #fff;
+        font-size: 1.2rem;
+        font-weight: 100;
+        box-shadow: 0px 5px 18px rgba(48, 68, 247, 0.6);
+        cursor: pointer;
+        margin-left: 40px;
+        
+    }
+    .send:hover{
+        color: black;
+        box-shadow: 0 0 20px #333;
+    }
+    
+    .last-wrap{
+        background-color: rgba(2, 2, 56, 0.995);
+        display: flex;
+        justify-content:center;
+        flex-wrap: wrap;
+        
+    }
+    .last-content{
+        display: flex;
+        flex-wrap:  wrap;
+        justify-content: center;
+    }
+    .content{
+       
+        margin: 10px;
+        padding: 30px;
+    }
+    .content h1,p{
+        color: white;
+    }
+    .content li,a{
+        color: white;
+        list-style: none;
+        text-decoration: none;
+        margin: 8px;
+    }
+    .content p{
+        margin: 10px;
+    }
+    .last-content h2{
+        color: white;
+        margin: 20px;
+        padding: 20px;
+    }
